@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="CartApp">
+	<head>
+	  <title>ShopKart</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <link rel="stylesheet" href="public/css/bootstrap.min.css">
+	  <link rel="stylesheet" href="public/css/styles.css">
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	</head>
+	<body>
+		<ui-view></ui-view>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+		<script src="public/lib/jquery.min.js"></script>
+		<script src="public/lib/bootstrap.min.js"></script>
+		<script src="app.js"></script>
+		<script src="public/controllers/cartController.js"></script>
+		<script src="public/controllers/homeController.js"></script>
+		<script src="public/controllers/loginController.js"></script>
+		<script src="public/controllers/orderReferenceController.js"></script>
+		<script src="public/controllers/productsController.js"></script>
+		<script src="public/components/orderReference.js"></script>
+		<script src="public/components/viewDetails.js"></script>
+		<script src="public/services/orderReferenceService.js"></script>
+		<script src="public/services/cart.js"></script>
+		<script src="public/filters/uniqueFilter.js"></script>
+	</body>
+</html>

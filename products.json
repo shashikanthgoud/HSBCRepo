@@ -1,0 +1,64 @@
+[{
+	"ptype": "Mobiles",
+	"pid": 1,
+	"img": "public/images/iphone.png",
+	"name": "iphone 6S",
+	"price": 200,
+	"description": "Apple iPhone 6s smartphone was launched in September 2015. The phone comes with a 4.70-inch touchscreen display with a resolution of 750 pixels by 1334 pixels at a PPI of 326 pixels per inch."
+}, {
+	"ptype": "Mobiles",
+	"pid": 2,
+	"img": "public/images/note4.png",
+	"name": "Samsung Glaxy S7",
+	"price": 150,
+	"description": "13MP primary camera with auto mode, beauty face, continuous shot, interval shot, panorama mode and 5MP front facing camera with palm gesture selfie and 120 degree selfie mode"
+}, {
+	"ptype": "Mobiles",
+	"pid": 3,
+	"img": "public/images/redmi-note4.png",
+	"name": "Redmi Note4",
+	"price": 100,
+	"description": "Redmi Note 4 smartphone was launched in August 2016. The phone comes with a 5.50-inch display with a resolution of 1080 pixels by 1920 pixels at a PPI of 401 pixels per inch. Xiaomi Redmi Note 4 price in India starts from Rs. 9,999."
+}, {
+	"ptype": "Handbags",
+	"pid": 4,
+	"img": "public/images/bag-2.png",
+	"name": "Lavie Pink Bag",
+	"price": 200,
+	"description": "For Women Material Synthetic Fabric Closure Zip Casual Bag 10 cm x 24 cm"
+}, {
+	"ptype": "Handbags",
+	"pid": 5,
+	"img": "public/images/bag-5.png",
+	"name": "Caprese Cream Bag",
+	"price": 125,
+	"description": "Faux leather material pale blue colored satchel 21.5 centimeters height x 30 centimeters length Zip closure Do not expose to extreme heat Round double handle with adjustable and detachable sling Backside embossed logo Easy access back pocket"
+}, {
+	"ptype": "Handbags",
+	"pid": 6,
+	"img": "public/images/bag-3.png",
+	"name": "Hidesign Red Bag",
+	"price": 100,
+	"description": "Handbag for Women with Aesthetically Designed Twin Grab Handles Ladies Handbag with Attachable Shoulder Strap to use as Sling Bag Branded Handbag made out of Best Quality PU Fabric Latest Collection of our Designer Handbags for Women This Tan Handbag for Girls and Women alike is a trend setter"
+}, {
+	"ptype": "Shoes",
+	"pid": 7,
+	"img": "public/images/shoes-1.png",
+	"name": "PUMA",
+	"price": 300,
+	"description": "PUMA presents these navy blue coloured training shoes for men that are designed to deliver both speed and stability. It is made of mesh material and has rubber sole adds to their durability and provides a firm grip to your feet. Features closed toe style and lace up closure is a perfect piece to be worn on any athletic events."
+}, {
+	"ptype": "Shoes",
+	"pid": 8,
+	"img": "public/images/shoes-6.png",
+	"name": "Nike",
+	"price": 250,
+	"description": "Material Mesh Lifestyle SportsClosure Type Lace-Up Product warranty against manufacturing defects 30 daysCare Instructions Allow your pair of shoes to air and de-odorize at a regular basis, this also helps them retain their natural shape; use shoe bags to prevent any stains or mildew"
+}, {
+	"ptype": "Shoes",
+	"pid": 9,
+	"img": "public/images/shoes-4.png",
+	"name": "Reebok",
+	"price": 400,
+	"description": "Material Type Canvas Lifestyle Casual Closure Type Lace-Up Warranty Type Manufacturer Product warranty against manufacturing defects 30 days Care Instructions Allow your pair of shoes to air and de-odorize at regular basis using a shoe-horn to wear your shoes will avoid damage to the back of your shoes;"
+}]

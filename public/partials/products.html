@@ -1,0 +1,53 @@
+<div class="row" >
+
+	<div class="col-md-2">  
+		<strong> <p class="text-center"> Categories</p></strong>
+		 <button class="btn btn-primary marB10" style="width:160px;" ng-click="searchProduct(product.ptype)">All</button>
+		 <div class="btn-group-vertical" ng-repeat="product in productsList | unique: 'ptype'">
+			<p><button class="btn btn-primary"  style="width:160px;" ng-click="searchProduct(product.ptype)">{{product.ptype}}</button></p>
+		 </div>
+	</div>
+
+	<div class="col-md-10"> 			
+			<div class="row">
+				  <div class="col-md-4" ng-repeat="product in productsList | filter: searchPtype">
+						
+						<div class="row">
+								<div class="col-md-1"></div>
+								<div class="col-md-10">
+								<img ng-src="{{product.img}}" class="list_img">
+								</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5"></div>
+							<div class="col-md-7">
+									<span class="">{{product.name }}</span>
+								</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5"></div>
+							<div class="col-md-7">
+									<strong class="">{{product.price | currency }}</strong>
+								</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5"></div>
+							<div class="col-md-7">
+									<a href="" ng-click="getCurrentProductDetails(product)" data-toggle="modal" data-target="#view_detailsModal">View Details</a>
+								</div>
+						</div>
+						<div class="row">
+							<div class="col-md-5"></div>
+							<div class="col-md-7 padA10">
+								<button type="button" ng-click="addToCart(product)"class="btn btn-sm btn-primary ">Add to Cart</button>
+								</div>
+						</div>
+				  </div>
+				  <div class="col-md-9"> 
+			
+				  </div>
+			</div>
+	</div>
+</div>
+
+<view-details-modal product="currentProduct"></view-details-modal>

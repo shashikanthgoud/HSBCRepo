@@ -1,0 +1,44 @@
+<nav class="navbar navbar_bg" ng-controller="homeCtrl">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="">ShopKart</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+     
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+	   <li ng-if="user" style="padding-bottom:15px;padding-top:15px;color:#fff;">Hi, {{user}}</li>
+	    <li><a ui-sref="home.products">Home</a></li>
+        <li><a ui-sref="home.cart">Cart({{totalCartCount()}})</a></li>
+        <li><a ui-sref="login">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>		
+<div class="container">
+	<div class="row padA10">
+	
+		<div class="col-md-12 shadow padA10">
+			<ui-view></ui-view>
+			<p>&nbsp;</p>
+		</div>
+		
+	</div>
+		
+	
+</div>
+<div class="row">
+<div class="col-md-12">
+<footer class="text-center navbar-fixed-bottom">
+
+ Copyright@ShopKart
+
+</footer>
+ </div>
+ </div>

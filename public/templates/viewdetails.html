@@ -1,0 +1,76 @@
+<!-- Modal -->
+  <div class="modal fade" id="view_detailsModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <!-- Modal content-->
+      <div class="modal-content ">
+			<div class="modal-header modal_headerbg">
+			  <button type="button" class="close" data-dismiss="modal">&times;</button>
+			  <h4 class="modal-title">View Details</h4>
+			</div>
+			<div class="modal-body">
+			   <div class="row">
+			   <div class="col-md-1"></div>
+				<div class="col-md-10">
+					<div class="row">
+						<div class="col-md-4">
+							<img ng-src="{{product.img}}" class="list_img">
+						</div>
+						<div class="col-md-8 padA10">
+								<div class="row">
+									<div class="col-md-4"><strong>&nbsp; </strong></div>
+									<div class="col-md-8">	&nbsp;</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4"><strong>&nbsp; </strong></div>
+									<div class="col-md-8">	&nbsp;</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4"><strong> Product Name : </strong></div>
+									<div class="col-md-8">	 {{product.name }}</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">	<strong> Price : </strong> </div>
+									<div class="col-md-8">	 {{product.price | currency }}</div>
+								</div>
+								<div class="row">
+									<div class="col-md-4">	<strong> Description : </strong> </div>
+									<div class="col-md-8">	 {{product.description }}</div>
+								</div>
+							
+							
+						</div>
+					</div>
+					<!-- <div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-7">
+						<span class="">{{product.name }}</span>
+					</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-7">
+							<a  data-toggle="modal" data-target="#view_detailsModal">View Details</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-7">
+							<strong class="">{{product.price | currency }}</strong>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-5"></div>
+						<div class="col-md-7 padA10">
+							<button type="button" ng-click="addToCart(product)"class="btn btn-sm btn-primary ">Add to Cart</button>
+						</div>
+					</div> -->
+				</div>
+				<div class="col-md-1"></div>
+				</div>
+			</div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-warning center-block" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
